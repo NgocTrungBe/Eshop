@@ -8,6 +8,9 @@
     <!---font awesome cdn link---->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <!-------custom css file link-------->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/base.css">
@@ -63,22 +66,23 @@
                     <div class="col-lg-8">
                         <div class="search-bar-top">
                             <div class="search-bar">
-                                <div class="nice-select">
-                                    <span>All categories</span>
-                                    <ul class="list">
-                                        <li class="option">All categories</li>
-                                        <li class="option">Watch</li>
+                                <div id="nice-select">
+                                    <span class="current">All categories </span>
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                    <ul class="list" id="options">
+                                        <li value="All category">All category </li>
+                                        <li value="Watch">Watch</li>
 
-                                        <li class="option">Mobile</li>
+                                        <li value="Mobile">Mobile</li>
 
-                                        <li class="option">Kid's item</li>
+                                        <li value="Kid's item">Kid's item</li>
 
                                     </ul>
                                 </div>
                                 <form action="">
                                     <input type="text" name="search" placeholder="Search Products Here..." type="search" id="">
                                     <button class="btn-search">
-                                        <i class="fas fa-search"></i>
+                                        <ion-icon name="search-outline"></ion-icon>
                                     </button>
                                 </form>
                             </div>
@@ -94,7 +98,9 @@
                                 <a href=""><i class="far fa-user-circle"></i></a>
                             </div>
                             <div class="single-bar">
-                                <a href=""><i class="fas fa-shopping-bag"></i></a>
+                                <a href=""><i class="fas fa-shopping-bag"></i>
+                                    <span class="total-count">2</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -103,6 +109,52 @@
             </div>
         </div>
         <!--middle inner end-->
+
+        <!--header inner start--->
+
+        <div class="header-inner">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="all-category">
+                                <h3 class="cat-heading">
+                                    <i class="fa fa-bars"></i> categories
+                                </h3>
+                                <!-- <ul class="main-category">
+                                    <li><a href="">New arrival</a></li>
+                                    <li><a href="">Best selling</a></li>
+                                    <li><a href="">Accessories</a></li>
+                                    <li><a href="">Top 100 offer</a></li>
+                                    <li><a href="">Sung glass</a></li>
+                                    <li><a href="">Watch</a></li>
+                                    <li><a href="">Man's product</a></li>
+                                    <li><a href="">Ladies</a></li>
+                                    <li><a href="">Girl dress</a></li>
+                                    <li><a href="">Denim</a></li>
+                                </ul> -->
+                            </div>
+
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="menu-area">
+                                <ul class="main-menu">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Product</a></li>
+                                    <li><a href="">Service</a></li>
+                                    <li><a href="">Shop</a></li>
+                                    <li><a href="">Pages</a></li>
+                                    <li><a href="">Blogs</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--header inner end--->
 
 
     </header>

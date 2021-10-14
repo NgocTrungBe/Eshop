@@ -5,7 +5,6 @@
     --pink: #e83e8c;
     --red: #dc3545;
     --orange: #fd7e14;
-    --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
     --cyan: #17a2b8;
@@ -20,6 +19,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --yellow: #F7941D;
 }
 
 .header {
@@ -49,6 +49,7 @@
 
 .topbar .topbar__listmain li:last-child {
     border: none;
+    padding-right: 0;
 }
 
 .topbar .topbar__listmain li i {
@@ -57,4 +58,224 @@
     font-size: 15px;
     position: relative;
     top: 2px;
+}
+
+
+/*-middle inner-*/
+
+.middle-inner {
+    padding: 20px 0px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.logo {
+    padding: 19px 0px 0px 0px;
+    display: inline-block;
+}
+
+.search-bar-top {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-top .search-bar {
+    width: 535px;
+    height: 50px;
+    line-height: 45px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    position: relative;
+}
+
+.search-bar-top .search-bar #nice-select {
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    background: transparent;
+    border-right: 1px solid #ececec;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 0 20px;
+    position: relative;
+}
+
+.search-bar-top .search-bar #nice-select.open ion-icon {
+    transform: rotate(-180deg);
+}
+
+.search-bar-top .search-bar #nice-select.open .list {
+    visibility: visible;
+    opacity: 1;
+    top: 105%;
+    transform: scale(1) translateY(0);
+}
+
+.search-bar #nice-select ion-icon {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    transition: 0.2s;
+}
+
+.search-bar-top .search-bar form {
+    display: inline-block;
+}
+
+.search-bar-top .search-bar form input {
+    width: 328px;
+    height: 48px;
+    padding: 0 25px 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.search-bar-top .search-bar form input:focus {
+    border: 2px solid var(--yellow);
+    border-radius: 5px;
+}
+
+.search-bar-top .search-bar form .btn-search {
+    cursor: pointer;
+    width: 62px;
+    color: #fff;
+    background: #333333;
+    position: absolute;
+    right: -2px;
+    top: -1px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: ease-in-out 0.2s;
+}
+
+.search-bar-top .search-bar form .btn-search:hover {
+    background-color: var(--yellow);
+}
+
+.search-bar-top .search-bar form .btn-search ion-icon {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.search-bar .list {
+    background-color: #fff;
+    margin-top: 5px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: scale(0.75) translateY(-21px);
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgb(68 68 68 / 11%);
+    transition: 0.2s;
+    z-index: 9;
+}
+
+.search-bar .list li {
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 29px;
+    line-height: 40px;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+.search-bar .list li:hover {
+    background: var(--yellow);
+    color: #fff;
+}
+
+.search-bar .list li:first-child:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search-bar .list li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right-bar {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+.right-bar .single-bar {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.right-bar .single-bar:last-child {
+    margin-right: 0;
+}
+
+.right-bar .single-bar a {
+    font-size: 20px;
+    color: #333;
+    position: relative;
+}
+
+.right-bar .single-bar .total-count {
+    position: absolute;
+    top: -2px;
+    right: -12px;
+    width: 18px;
+    height: 18px;
+    background-color: #fd7e14;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*-header inner-*/
+
+.header-inner {
+    background: #333;
+}
+
+.all-category .main-category {
+    visibility: hidden;
+}
+
+.all-category {
+    background: var(--yellow);
+}
+
+.all-category h3 {
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.all-category h3 i {
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.menu-area .main-menu li {
+    display: inline-block;
+    padding: 20px 15px;
+    margin-right: 5px;
+}
+
+.menu-area .main-menu li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.menu-area .main-menu li:first-child {
+    background: var(--yellow);
 }
