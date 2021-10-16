@@ -46,3 +46,7 @@
     padding-right: 15px;
     width: 75%;
 }
+
+.offset-lg-3 {
+    margin-left: 25%;
+}

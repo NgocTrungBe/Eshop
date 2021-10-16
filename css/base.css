@@ -13,8 +13,8 @@
 
 html {
     font-weight: 62.5%;
-    overflow: hidden;
-    scroll-behavior: smooth;
+    /* overflow: hidden; */
+    /* scroll-behavior: smooth; */
 }
 
 a,
@@ -31,4 +31,25 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #333;
+    text-align: center;
+    padding: 13px 32px;
+    color: #fff;
+    transition: ease-in-out 0.3s;
+    font-size: 14px;
+    font-weight: 500;
 }
