@@ -47,6 +47,12 @@
     width: 75%;
 }
 
+.col-lg-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
 .offset-lg-3 {
     margin-left: 25%;
 }
