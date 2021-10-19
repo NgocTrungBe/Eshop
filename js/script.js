@@ -15,9 +15,14 @@ const tab_pane_show = $.getElementsByClassName("tab-pane show");
 
 
 
-console.log(tab_pane_active)
-    // document.addEventListener("click", openSellect);
 
+// header inner sticky
+
+window.addEventListener("scroll", function() {
+    const header = $.querySelector(".header-inner");
+
+    header.classList.toggle("sticky", window.scrollY > 100);
+})
 
 nice_sellect.addEventListener("click", function() {
     this.classList.toggle("open")

@@ -29,6 +29,12 @@
     width: 41.66667%;
 }
 
+.col-lg-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+
 .col-lg-7 {
     padding-left: 15px;
     padding-right: 15px;
@@ -55,4 +61,12 @@
 
 .offset-lg-3 {
     margin-left: 25%;
+}
+
+.offset-lg-2 {
+    margin-left: 16.66667%;
+}
+
+.no-padding-right {
+    padding-right: 0px;
 }
