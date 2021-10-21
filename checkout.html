@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!---font awesome cdn link---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-------custom css file link-------->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+
+
+</head>
+
+<body>
+    <div class="app">
+
+        <!--pro features start-->
+
+        <div class="pro-features ">
+            <a href="#" class="get-pro">Get pro</a>
+            <ul class="pro-features__list">
+                <li class="pro-features__title">Pro Version Features</li>
+                <li>4+ premade home pages</li>
+                <li>19+ html pages</li>
+                <li>Color Plate With 12+ Colors</li>
+                <li>Sticky Header / Sticky Filters</li>
+                <li>Quick view / Product Countdown</li>
+            </ul>
+
+            <div class="pro-button-group">
+                <a href="" class="pro-btn">Buy Pro Version</a>
+                <a href="" class="pro-btn">View Details</a>
+            </div>
+
+        </div>
+        <!--pro features end-->
+
+        <!-------header section start--------->
+        <header class="header">
+            <!--top bar start--->
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="topbar__left">
+                                <ul class="topbar__listmain">
+                                    <li><i class="fas fa-headset"></i> +060 (800) 801-582</li>
+                                    <li><i class="fas fa-envelope"></i> support@shophub.com</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="topbar__right">
+                                <ul class="topbar__listmain">
+                                    <li><i class="fas fa-map-marker-alt"></i> location</li>
+                                    <li><i class="fas fa-clock"></i> <a href="">Daily deal</a></li>
+                                    <li><i class="far fa-user"></i> <a href="">My account</a></li>
+                                    <li><i class="fas fa-chevron-down"></i><a href=""> Login</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---topbar end-->
+            <!--middle inner start-->
+            <div class="middle-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="logo">
+                                <a href="">
+                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="search-bar-top">
+                                <div class="search-bar">
+                                    <div class="nice-select">
+                                        <span class="current">All categories </span>
+                                        <ion-icon name="chevron-down-outline"></ion-icon>
+                                        <ul class="list" id="options">
+                                            <li value="All category">All category </li>
+                                            <li value="Watch">Watch</li>
+
+                                            <li value="Mobile">Mobile</li>
+
+                                            <li value="Kid's item">Kid's item</li>
+
+                                        </ul>
+                                    </div>
+                                    <form action="">
+                                        <input type="text" name="search" placeholder="Search Products Here..." type="search" id="">
+                                        <button class="btn-search">
+                                        <ion-icon name="search-outline"></ion-icon>
+                                    </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <div class="right-bar">
+                                <div class="single-bar">
+                                    <a href=""><i class="far fa-heart"></i></a>
+                                </div>
+                                <div class="single-bar">
+                                    <a href=""><i class="far fa-user-circle"></i></a>
+                                </div>
+                                <div class="single-bar shopping">
+                                    <a href="" class="single-bar__Cart-icon"><i class="fas fa-shopping-bag"></i>
+                                    <span class="total-count">2</span>
+                                </a>
+                                    <div class="shopping-cart">
+                                        <div class="shopping-cart__header">
+                                            <span class="product-quality">10 ITEMS</span>
+                                            <a href="">View Cart</a>
+                                        </div>
+                                        <ul class="shopping-cart__list">
+                                            <li>
+
+                                                <a href="" class="cart-img">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                                </a>
+                                                <h4><a href="">Women's ring</a></h4>
+                                                <p class="quanlity">
+                                                    1X -
+                                                    <span class="mount">$9999</span>
+                                                </p>
+                                                <a class="remove-btn" href="">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="cart-img">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                                </a>
+                                                <h4><a href="">Women's ring</a></h4>
+                                                <p class="quanlity">
+                                                    1X -
+                                                    <span class="mount">$9999</span>
+                                                </p>
+                                                <a class="remove-btn" href="">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="cart-img">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                                </a>
+                                                <h4><a href="">Women's ring</a></h4>
+                                                <p class="quanlity">
+                                                    1X -
+                                                    <span class="mount">$9999</span>
+                                                </p>
+                                                <a class="remove-btn" href="">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+
+                                                <a href="" class="cart-img">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                                </a>
+                                                <h4><a href="">Women's ring</a></h4>
+                                                <p class="quanlity">
+                                                    1X -
+                                                    <span class="mount">$9999</span>
+                                                </p>
+                                                <a class="remove-btn" href="">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="cart-bottom">
+                                            <div class="cart-total">
+                                                <span>Total</span>
+                                                <span class="total-amount">$134.00</span>
+                                            </div>
+                                            <a class="checkout-btn" href="">checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--middle inner end-->
+
+            <!--header inner start--->
+
+            <div class="header-inner">
+                <div class="container">
+                    <div class="header-nav">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="menu-area">
+                                    <ul class="main-menu">
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">Product</a></li>
+                                        <li><a href="">Service</a></li>
+                                        <li><a href="">Shop
+                                        <ion-icon name="chevron-down-outline"></ion-icon>
+                                        <span class="news">
+                                        New
+                                        </span>
+                                    </a>
+                                            <ul class="dropdown">
+                                                <li>
+                                                    <a href="">
+                                                   cart
+                                                </a>
+                                                </li>
+                                                <li>
+                                                    <a href="">
+                                                   checkout
+                                                </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Pages</a></li>
+                                        <li><a href="">Blogs
+                                        <ion-icon name="chevron-down-outline"></ion-icon>
+                                    </a>
+                                            <ul class="dropdown">
+                                                <li>
+                                                    <a href="">
+                                               I love you Trinh
+                                            </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--header inner end--->
+
+
+        </header>
+
+        <!--connect link start-->
+        <div class="connect-page-link">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="connect-list">
+                            <li><a href="index.html">
+                                 Home
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+
+                             </a></li>
+                            <li><a href="#">Checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--connect link end-->
+
+        <section class=shop-checkout-area>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="checkout-form">
+                            <h2>Make Your Checkout Here</h2>
+                            <p>Please register in order to checkout more quickly</p>
+                            <form action="" class="form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                              First name
+                                              <span>*</span>
+                                          </label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                            Last name
+                                            <span>*</span>
+                                        </label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                            Email address
+                                            <span>*</span>
+                                        </label>
+                                            <input type="email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                            Phone number
+                                            <span>*</span>
+                                        </label>
+                                            <input type="number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                Country
+                                                <span>*</span>
+                                            </label>
+                                            <div class="nice-select">
+                                                <span class="current">All categories </span>
+                                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                                <ul class="list" id="options">
+                                                    <li value="All category">Afghanistan </li>
+                                                    <li value="Watch">Åland Islands</li>
+
+                                                    <li value="Mobile">Algeria</li>
+
+                                                    <li value="Kid's item">American Samoa</li>
+                                                    <li value="Kid's item">Andorra</li>
+                                                    <li value="Kid's item">Angola</li>
+
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                State / Divition
+                                                <span>*</span>
+                                            </label>
+                                            <div class="nice-select">
+                                                <span class="current">New Yourk</span>
+                                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                                <ul class="list" id="options">
+                                                    <li value="All category">New Yourk </li>
+                                                    <li value="Watch">Los Angeles</li>
+
+                                                    <li value="Mobile">Chicago</li>
+
+                                                    <li value="Kid's item">Houston</li>
+                                                    <li value="Kid's item">Dallas</li>
+                                                    <li value="Kid's item">Charlotte</li>
+
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                Address Line 1
+                                            <span>*</span>
+                                        </label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                Address Line 2
+                                            <span>*</span>
+                                        </label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                Postal code
+                                            <span>*</span>
+                                        </label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="">
+                                                 Company
+                                                <span>*</span>
+                                            </label>
+                                            <div class="nice-select">
+                                                <span class="current">Apple</span>
+                                                <ion-icon name="chevron-down-outline"></ion-icon>
+                                                <ul class="list" id="options">
+                                                    <li value="Apple">Apple </li>
+                                                    <li value="Xiaomi">Xiaomi</li>
+
+                                                    <li value="Huewei">Huewei</li>
+
+                                                    <li value="Samsung">Samsung</li>
+                                                    <li value="Obagi">Obagi</li>
+                                                    <li value="Rolex">Rolex</li>
+
+
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group create-account">
+                                            <input id="cbox" type="checkbox">
+                                            <label for="">
+                                              
+                                                Create an account?
+                                            </label>
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="oder-details">
+                            <!--single-widget start-->
+                            <div class="single-widget">
+                                <h2>Cart totals</h2>
+                                <div class="content">
+                                    <ul>
+                                        <li>Sub Total<span>$330.00</span></li>
+                                        <li>(+) Shipping<span>$10.00</span></li>
+                                        <li class="last">Total<span>$340.00</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--single-widget start-->
+                            <div class="single-widget payments">
+                                <h2>Payments</h2>
+                                <div class="content">
+                                    <div class="checkbox-group ">
+                                        <label class="checkbox-inline" for="1">
+                                            Check Payments
+                                        </label>
+                                        <label class="checkbox-inline" for="2">
+                                            Cash On Delivery
+                                        </label>
+                                        <label class="checkbox-inline" for="3">
+                                            PayPal
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-widget start-->
+                            <div class="single-widget payments-area">
+
+                                <div class="content">
+                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/payment-method.png" alt="">
+                                </div>
+                            </div>
+                            <!--single-widget start-->
+                            <!--single-widget start-->
+                            <div class="single-widget submit-button">
+
+                                <div class="content">
+                                    <div class="button">
+                                        <a href="" class="btn">proceed to checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single-widget start-->
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!---shop services start--->
+        <section class=" shop-services ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-3">
+                        <div class="single-service ">
+                            <ion-icon name="rocket-outline"></ion-icon>
+                            <div class="content ">
+                                <h4>FREE SHIPING</h4>
+                                <p>Orders over $100</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="single-service ">
+                            <ion-icon name="reload-outline"></ion-icon>
+                            <div class="content ">
+                                <h4>FREE RETURN</h4>
+                                <p>Within 30 days returns</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="single-service ">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <div class="content ">
+                                <h4>SUCURE PAYMENT</h4>
+                                <p>100% secure payment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="single-service ">
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                            <div class="content ">
+                                <h4>BEST PEICE</h4>
+                                <p>Guaranteed price</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---shop services end--->
+        <!---shop newsletter start--->
+
+        <section class="shop-newsletter">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-8 offset-lg-2 ">
+                        <div class="shop-newsletter-box">
+                            <h4>newsletter</h4>
+                            <p>Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
+                            <form action=" " class="newsletter-form ">
+                                <input type="email" name=" " id=" " placeholder="Your email address ">
+                                <button class="subscribe-btn ">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---shop newsletter end--->
+        <!---footer start--->
+        <footer class="footer ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-5 ">
+                        <div class="footer-about ">
+                            <div class="footer-logo ">
+                                <a href=" ">
+                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo2.png " alt=" ">
+                                </a>
+                            </div>
+                            <p class="text ">
+                                Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                            </p>
+                            <p class="call ">
+                                Got Question? Call us 24/7
+                                <br>
+                                <span><a href=" ">+0123 456 789</a></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="single-footer ">
+                            <h4>Infomation</h4>
+                            <ul class="footer-list ">
+                                <li><a href=" ">About Us</a></li>
+                                <li><a href=" ">Faq</a></li>
+                                <li><a href=" ">Terms & Conditions</a></li>
+                                <li><a href=" ">Contact Us</a></li>
+                                <li><a href=" ">Help</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="single-footer ">
+                            <h4>Customer Service</h4>
+                            <ul class="footer-list ">
+                                <li><a href=" ">Payment Methods</a></li>
+                                <li><a href=" ">Money-back</a></li>
+                                <li><a href=" ">Returns</a></li>
+                                <li><a href=" ">Shipping</a></li>
+                                <li><a href=" ">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="single-footer ">
+                            <h4>Get In Tuch</h4>
+                            <ul class="footer-list contact ">
+                                <li><a href=" ">NO. 342 - London Oxford Street.</a></li>
+                                <li><a href=" ">012 United Kingdom.</a></li>
+                                <li><a href=" ">info@eshop.com</a></li>
+                                <li><a href=" ">+032 3456 7890</a></li>
+
+                            </ul>
+                            <ul class="footer-social-list ">
+                                <li>
+                                    <a href=" ">
+                                        <ion-icon name="logo-facebook "></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" ">
+                                        <ion-icon name="logo-twitter "></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" ">
+                                        <ion-icon name="logo-flickr "></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" ">
+                                        <ion-icon name="logo-instagram "></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="copyright ">
+                    <div class="row ">
+                        <div class="col-lg-6 ">
+                            <div class="copyright-text ">
+                                <p>
+                                    Copyright © 2020
+                                    <a href="https://wpthemesgrid.com/ ">Wpthemesgrid</a> - All Rights Reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="copyright-image ">
+                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/payments.png " alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---footer end--->
+
+    </div>
+    <!--scroll up -->
+    <a href="# " id="scrollUp">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+
+    <!-------custom js file link-------->
+    <script src="./js/script.js "></script>
+</body>
+
+</html>
