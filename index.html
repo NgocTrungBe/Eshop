@@ -14,6 +14,8 @@
     <!-------custom css file link-------->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/grid.css">
+
     <link rel="stylesheet" href="./css/responsive.css">
 
 
@@ -21,231 +23,307 @@
 </head>
 
 <body>
-    <div class="app">
-        <!--pro features start-->
 
-        <div class="pro-features ">
-            <a href="#" class="get-pro">Get pro</a>
-            <ul class="pro-features__list">
-                <li class="pro-features__title">Pro Version Features</li>
-                <li>4+ premade home pages</li>
-                <li>19+ html pages</li>
-                <li>Color Plate With 12+ Colors</li>
-                <li>Sticky Header / Sticky Filters</li>
-                <li>Quick view / Product Countdown</li>
-            </ul>
+    <!--pro features start-->
 
-            <div class="pro-button-group">
-                <a href="" class="pro-btn">Buy Pro Version</a>
-                <a href="" class="pro-btn">View Details</a>
-            </div>
+    <div class="pro-features ">
+        <a href="#" class="get-pro">Get pro</a>
+        <ul class="pro-features__list">
+            <li class="pro-features__title">Pro Version Features</li>
+            <li>4+ premade home pages</li>
+            <li>19+ html pages</li>
+            <li>Color Plate With 12+ Colors</li>
+            <li>Sticky Header / Sticky Filters</li>
+            <li>Quick view / Product Countdown</li>
+        </ul>
 
+        <div class="pro-button-group">
+            <a href="" class="pro-btn">Buy Pro Version</a>
+            <a href="" class="pro-btn">View Details</a>
         </div>
-        <!--pro features end-->
+
+    </div>
+    <!--pro features end-->
 
 
-        <!-------header section start--------->
-        <header class="header">
-            <!--top bar start--->
-            <div class="topbar">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="topbar__left">
-                                <ul class="topbar__listmain">
-                                    <li><i class="fas fa-headset"></i> +060 (800) 801-582</li>
-                                    <li><i class="fas fa-envelope"></i> support@shophub.com</li>
-                                </ul>
-                            </div>
-
+    <!-------header section start--------->
+    <header class="header">
+        <!--top bar start--->
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div class="topbar__left">
+                            <ul class="topbar__listmain">
+                                <li><i class="fas fa-headset"></i> +060 (800) 801-582</li>
+                                <li><i class="fas fa-envelope"></i> support@shophub.com</li>
+                            </ul>
                         </div>
-                        <div class="col-lg-7">
-                            <div class="topbar__right">
-                                <ul class="topbar__listmain">
-                                    <li><i class="fas fa-map-marker-alt"></i> location</li>
-                                    <li><i class="fas fa-clock"></i> <a href="">Daily deal</a></li>
-                                    <li><i class="far fa-user"></i> <a href="">My account</a></li>
-                                    <li><i class="fas fa-chevron-down"></i><a href=""> Login</a></li>
 
-                                </ul>
-                            </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="topbar__right">
+                            <ul class="topbar__listmain">
+                                <li><i class="fas fa-map-marker-alt"></i> location</li>
+                                <li><i class="fas fa-clock"></i> <a href="">Daily deal</a></li>
+                                <li><i class="far fa-user"></i> <a href="">My account</a></li>
+                                <li><i class="fas fa-chevron-down"></i><a href=""> Login</a></li>
 
+                            </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
-            <!---topbar end-->
-            <!--middle inner start-->
-            <div class="middle-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <div class="logo">
-                                <a href="">
-                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo.png" alt="">
+        </div>
+        <!---topbar end-->
+        <!--middle inner start-->
+        <div class="middle-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-12 col-md-2">
+                        <div class="logo">
+                            <a href="">
+                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <!----mobile-search-top start-->
+                        <div class="mobile-search-top">
+                            <div class="search-top-icon">
+                                <a href="#0">
+                                    <ion-icon name="search-outline"></ion-icon>
                                 </a>
                             </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="search-bar-top">
-                                <div class="search-bar">
-                                    <div class="nice-select">
-                                        <span class="current">All categories </span>
-                                        <ion-icon name="chevron-down-outline"></ion-icon>
-                                        <ul class="list" id="options">
-                                            <li value="All category">All category </li>
-                                            <li value="Watch">Watch</li>
-
-                                            <li value="Mobile">Mobile</li>
-
-                                            <li value="Kid's item">Kid's item</li>
-
-                                        </ul>
-                                    </div>
-                                    <form action="">
-                                        <input type="text" name="search" placeholder="Search Products Here..." type="search" id="">
-                                        <button class="btn-search">
+                            <div class="mobile-search-top">
+                                <form class="search-form" action="">
+                                    <input type="text" placeholder="Search here..." name="" id="">
+                                    <button value="search" type="button">
                                         <ion-icon name="search-outline"></ion-icon>
                                     </button>
-                                    </form>
-                                </div>
+                                </form>
                             </div>
                         </div>
-
-                        <div class="col-lg-2">
-                            <div class="right-bar">
-                                <div class="single-bar">
-                                    <a href=""><i class="far fa-heart"></i></a>
-                                </div>
-                                <div class="single-bar">
-                                    <a href=""><i class="far fa-user-circle"></i></a>
-                                </div>
-                                <div class="single-bar shopping">
-                                    <a href="" class="single-bar__Cart-icon"><i class="fas fa-shopping-bag"></i>
-                                    <span class="total-count">2</span>
+                        <!----mobile-search-top start-->
+                        <!----mobile-nav start-->
+                        <div class="mobile-nav">
+                            <div class="slicknav-menu">
+                                <a href="#0" class="slicknav-icon">
+                                    <ion-icon name="menu-outline"></ion-icon>
                                 </a>
-                                    <div class="shopping-cart">
-                                        <div class="shopping-cart__header">
-                                            <span class="product-quality">10 ITEMS</span>
-                                            <a href="">View Cart</a>
-                                        </div>
-                                        <ul class="shopping-cart__list">
+                                <ul class="slicknav-nav">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li class="slicknav-parent slicknav-colapsed"><a href="#0">Shop
+                                        <ion-icon name="caret-forward-outline"></ion-icon>
+                                    </a>
+                                        <ul class="slicknav-dropdown open">
                                             <li>
-
-                                                <a href="" class="cart-img">
-                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
-                                                </a>
-                                                <h4><a href="">Women's ring</a></h4>
-                                                <p class="quanlity">
-                                                    1X -
-                                                    <span class="mount">$9999</span>
-                                                </p>
-                                                <a class="remove-btn" href="">
-                                                    <i class="fas fa-times"></i>
-                                                </a>
+                                                <a href="#">Cart</a>
                                             </li>
                                             <li>
-
-                                                <a href="" class="cart-img">
-                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
-                                                </a>
-                                                <h4><a href="">Women's ring</a></h4>
-                                                <p class="quanlity">
-                                                    1X -
-                                                    <span class="mount">$9999</span>
-                                                </p>
-                                                <a class="remove-btn" href="">
-                                                    <i class="fas fa-times"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-
-                                                <a href="" class="cart-img">
-                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
-                                                </a>
-                                                <h4><a href="">Women's ring</a></h4>
-                                                <p class="quanlity">
-                                                    1X -
-                                                    <span class="mount">$9999</span>
-                                                </p>
-                                                <a class="remove-btn" href="">
-                                                    <i class="fas fa-times"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-
-                                                <a href="" class="cart-img">
-                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
-                                                </a>
-                                                <h4><a href="">Women's ring</a></h4>
-                                                <p class="quanlity">
-                                                    1X -
-                                                    <span class="mount">$9999</span>
-                                                </p>
-                                                <a class="remove-btn" href="">
-                                                    <i class="fas fa-times"></i>
-                                                </a>
+                                                <a href="#">Check out</a>
                                             </li>
                                         </ul>
-                                        <div class="cart-bottom">
-                                            <div class="cart-total">
-                                                <span>Total</span>
-                                                <span class="total-amount">$134.00</span>
-                                            </div>
-                                            <a class="checkout-btn" href="../Eshop/checkout.html">checkout</a>
+                                    </li>
+                                    <li><a href="#">Pages</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!----mobile-nav end-->
+
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="search-bar-top">
+                            <div class="search-bar">
+                                <div class="nice-select">
+                                    <span class="current">All categories </span>
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                    <ul class="list" id="options">
+                                        <li value="All category">All category </li>
+                                        <li value="Watch">Watch</li>
+
+                                        <li value="Mobile">Mobile</li>
+
+                                        <li value="Kid's item">Kid's item</li>
+
+                                    </ul>
+                                </div>
+                                <form action="">
+                                    <input type="text" name="search" placeholder="Search Products Here..." type="search" id="">
+                                    <button class="btn-search">
+                                        <ion-icon name="search-outline"></ion-icon>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <div class="right-bar">
+                            <div class="single-bar">
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                            <div class="single-bar">
+                                <a href=""><i class="far fa-user-circle"></i></a>
+                            </div>
+                            <div class="single-bar shopping">
+                                <a href="" class="single-bar__Cart-icon"><i class="fas fa-shopping-bag"></i>
+                                    <span class="total-count">2</span>
+                                </a>
+                                <div class="shopping-cart">
+                                    <div class="shopping-cart__header">
+                                        <span class="product-quality">10 ITEMS</span>
+                                        <a href="">View Cart</a>
+                                    </div>
+                                    <ul class="shopping-cart__list">
+                                        <li>
+
+                                            <a href="" class="cart-img">
+                                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                            </a>
+                                            <h4><a href="">Women's ring</a></h4>
+                                            <p class="quanlity">
+                                                1X -
+                                                <span class="mount">$9999</span>
+                                            </p>
+                                            <a class="remove-btn" href="">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+
+                                            <a href="" class="cart-img">
+                                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                            </a>
+                                            <h4><a href="">Women's ring</a></h4>
+                                            <p class="quanlity">
+                                                1X -
+                                                <span class="mount">$9999</span>
+                                            </p>
+                                            <a class="remove-btn" href="">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+
+                                            <a href="" class="cart-img">
+                                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                            </a>
+                                            <h4><a href="">Women's ring</a></h4>
+                                            <p class="quanlity">
+                                                1X -
+                                                <span class="mount">$9999</span>
+                                            </p>
+                                            <a class="remove-btn" href="">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+
+                                            <a href="" class="cart-img">
+                                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/product-1.jpg" alt="">
+                                            </a>
+                                            <h4><a href="">Women's ring</a></h4>
+                                            <p class="quanlity">
+                                                1X -
+                                                <span class="mount">$9999</span>
+                                            </p>
+                                            <a class="remove-btn" href="">
+                                                <i class="fas fa-times"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="cart-bottom">
+                                        <div class="cart-total">
+                                            <span>Total</span>
+                                            <span class="total-amount">$134.00</span>
                                         </div>
+                                        <a class="checkout-btn" href="../Eshop/checkout.html">checkout</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
-            <!--middle inner end-->
+        </div>
+        <!--middle inner end-->
 
-            <!--header inner start--->
+        <!--header inner start--->
 
-            <div class="header-inner">
-                <div class="container">
-                    <div class="header-nav">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="all-category">
-                                    <h3 class="cat-heading">
-                                        <i class="fa fa-bars"></i> categories
-                                    </h3>
-                                    <ul class="main-category">
-                                        <li><a href="">New arrival
+        <div class="header-inner">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="all-category">
+                                <h3 class="cat-heading">
+                                    <i class="fa fa-bars"></i> categories
+                                </h3>
+                                <ul class="main-category">
+                                    <li><a href="">New arrival
                                         <ion-icon name="chevron-forward-outline"></ion-icon>   
                                         </a>
-                                            <ul class="sub-menu">
-                                                <li><a href="">New arrival
+                                        <ul class="sub-menu">
+                                            <li><a href="">New arrival
                                             
                                             </a></li>
-                                                <li><a href="">Best selling
+                                            <li><a href="">Best selling
                                                
                                             </a></li>
-                                                <li><a href="">Accessories</a></li>
-                                                <li><a href="">Top 100 offer</a></li>
-                                                <li><a href="">Sung glass</a></li>
-                                                <li><a href="">Watch</a></li>
-                                                <li><a href="">Man's product</a></li>
+                                            <li><a href="">Accessories</a></li>
+                                            <li><a href="">Top 100 offer</a></li>
+                                            <li><a href="">Sung glass</a></li>
+                                            <li><a href="">Watch</a></li>
+                                            <li><a href="">Man's product</a></li>
 
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Best selling
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Best selling
                                         <ion-icon name="chevron-forward-outline"></ion-icon>
                                         </a>
 
-                                            <ul class="mega-menu">
+                                        <ul class="mega-menu">
+                                            <li class="single-menu">
+                                                <a href="" class="title-link">Shop kid's</a>
+                                                <div class="image">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu1.jpg" alt="">
+                                                </div>
+                                                <div class="inner-link">
+                                                    <a href="">Kids Toys</a>
+                                                    <a href="">Kids Travel Car</a>
+                                                    <a href="">Kids Color Shape</a>
+                                                    <a href="">Kids Tent</a>
+
+                                                </div>
+
+                                            </li>
+                                            <li class="single-menu">
+                                                <a href="" class="title-link">Shop Men's</a>
+                                                <div class="image">
+                                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu2.jpg" alt="">
+                                                </div>
+                                                <div class="inner-link">
+                                                    <a href="">Watchs</a>
+                                                    <a href="">T-shirt</a>
+                                                    <a href="">Hoodies</a>
+                                                    <a href="">Pan-rolex</a>
+
+                                                </div>
+
+
                                                 <li class="single-menu">
-                                                    <a href="" class="title-link">Shop kid's</a>
+                                                    <a href="" class="title-link">Shop Women's</a>
                                                     <div class="image">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu1.jpg" alt="">
+                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu3.jpg" alt="">
                                                     </div>
                                                     <div class="inner-link">
-                                                        <a href="">Kids Toys</a>
+                                                        <a href="">Womens Toys</a>
                                                         <a href="">Kids Travel Car</a>
                                                         <a href="">Kids Color Shape</a>
                                                         <a href="">Kids Tent</a>
@@ -253,1545 +331,178 @@
                                                     </div>
 
                                                 </li>
-                                                <li class="single-menu">
-                                                    <a href="" class="title-link">Shop Men's</a>
-                                                    <div class="image">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu2.jpg" alt="">
-                                                    </div>
-                                                    <div class="inner-link">
-                                                        <a href="">Watchs</a>
-                                                        <a href="">T-shirt</a>
-                                                        <a href="">Hoodies</a>
-                                                        <a href="">Pan-rolex</a>
-
-                                                    </div>
-
-
-                                                    <li class="single-menu">
-                                                        <a href="" class="title-link">Shop Women's</a>
-                                                        <div class="image">
-                                                            <img src="https://wpthemesgrid.com/themes/free/eshop/images/mega-menu3.jpg" alt="">
-                                                        </div>
-                                                        <div class="inner-link">
-                                                            <a href="">Womens Toys</a>
-                                                            <a href="">Kids Travel Car</a>
-                                                            <a href="">Kids Color Shape</a>
-                                                            <a href="">Kids Tent</a>
-
-                                                        </div>
-
-                                                    </li>
-                                            </ul>
-                                            </li>
-                                            <li><a href="">Accessories</a></li>
-                                            <li><a href="">Top 100 offer</a></li>
-                                            <li><a href="">Sung glass</a></li>
-                                            <li><a href="">Watch</a></li>
-                                            <li><a href="">Man's product</a></li>
-                                            <li><a href="">Ladies</a></li>
-                                            <li><a href="">Girl dress</a></li>
-                                            <li><a href="">Denim</a></li>
-                                    </ul>
-                                </div>
-
+                                        </ul>
+                                        </li>
+                                        <li><a href="">Accessories</a></li>
+                                        <li><a href="">Top 100 offer</a></li>
+                                        <li><a href="">Sung glass</a></li>
+                                        <li><a href="">Watch</a></li>
+                                        <li><a href="">Man's product</a></li>
+                                        <li><a href="">Ladies</a></li>
+                                        <li><a href="">Girl dress</a></li>
+                                        <li><a href="">Denim</a></li>
+                                </ul>
                             </div>
-                            <div class="col-lg-9">
-                                <div class="menu-area">
-                                    <ul class="main-menu">
-                                        <li><a href="">Home</a></li>
-                                        <li><a href="">Product</a></li>
-                                        <li><a href="">Service</a></li>
-                                        <li><a href="">Shop
+
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="menu-area">
+                                <ul class="main-menu">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Product</a></li>
+                                    <li><a href="">Service</a></li>
+                                    <li><a href="">Shop
                                         <ion-icon name="chevron-down-outline"></ion-icon>
                                         <span class="news">
                                         New
                                         </span>
                                     </a>
-                                            <ul class="dropdown">
-                                                <li>
-                                                    <a href="">
+                                        <ul class="dropdown">
+                                            <li>
+                                                <a href="">
                                                    cart
                                                 </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
+                                            </li>
+                                            <li>
+                                                <a href="">
                                                    checkout
                                                 </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Pages</a></li>
-                                        <li><a href="">Blogs
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Pages</a></li>
+                                    <li><a href="">Blogs
                                         <ion-icon name="chevron-down-outline"></ion-icon>
                                     </a>
-                                            <ul class="dropdown">
-                                                <li>
-                                                    <a href="">
+                                        <ul class="dropdown">
+                                            <li>
+                                                <a href="">
                                                I love you Trinh
                                             </a>
-                                                </li>
+                                            </li>
 
-                                            </ul>
-                                        </li>
-                                        <li><a href="">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--header inner end--->
-
-
-        </header>
-
-        <!-------header section end--------->
-        <!-------hero slider start--------->
-
-        <section class="hero-slider">
-            <div class="single-slider">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-9 offset-lg-3">
-                            <div class="text-inner">
-                                <div class="row">
-                                    <div class="col-lg-7">
-                                        <div class="text-inner__area">
-                                            <h1>
-                                                <span>UP TO 50% OFF</span> <br> Shirt For Man
-                                            </h1>
-                                            <p>Maboriosam in a nesciung eget magnae
-                                                <br> dapibus disting tloctio in the find it pereri
-                                                <br> odiy maboriosm.
-                                            </p>
-                                            <div class="button">
-                                                <a href="" class="btn shopnow-btn">
-                                            SHOP NOW!
-                                        </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-------hero slider end--------->
-
-        <!-------small banner start--------->
-
-        <section class="small-banner">
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-banner">
-                            <img src="https://wpthemesgrid.com/themes/free/eshop/images/mini-banner1.jpg" alt="">
-                            <div class="banner-content">
-                                <p>Man's collections</p>
-                                <h3>
-                                    Summer Travel <br> Collections
-                                </h3>
-                                <a href="" class="banner-btn">Discovery now</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-banner">
-                            <img src=" https://wpthemesgrid.com/themes/free/eshop/images/mini-banner2.jpg" alt="">
-                            <div class="banner-content">
-                                <p>Bag's collections</p>
-                                <h3>
-                                    Summer Travel <br> Collections
-                                </h3>
-                                <a href="" class="banner-btn">Shop now</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-banner">
-                            <img src="https://wpthemesgrid.com/themes/free/eshop/images/mini-banner3.jpg" alt="">
-                            <div class="banner-content">
-                                <p>Flash sale</p>
-                                <h3>
-                                    Summer Travel <br> Collections
-                                </h3>
-                                <a href="" class="banner-btn">Discovery now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-------small banner end--------->
-        <!---trending start -->
-        <div class="trending">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <h2>Trending Item</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="trending-content">
-                            <div class="trending-nav">
-                                <!---tab nav start--->
-                                <ul class="nav-main" id="nav_main">
-                                    <li class="nav-item active">
-                                        <a href="#man" class="nav-link">man</a>
+                                        </ul>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="#women" class="nav-link">women</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">kids</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">accessories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">essentials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">prices</a>
-                                    </li>
+                                    <li><a href="">Contact Us</a></li>
                                 </ul>
-                                <!---tab nav end--->
-
-                            </div>
-
-                            <!---tab content---->
-                            <div class="tab-pane active show fade" id="man">
-                                <div class="single-tab">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p1.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p2.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p3.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p5.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p7.jpg" alt="loading" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="" class="hover-img">
-                                                        <span class="new">new</span>
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p9.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="" class="hover-img">
-
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p11.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="" class="hover-img">
-                                                        <span class="price-dec">30% off</span>
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p13.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p15.jpg" alt="loading" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="" class="hover-img">
-                                                        <span class="out-of-stock">Hot</span>
-
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <div class="tab-pane" id="women">
-                                <div class="single-tab">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p1.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p2.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p3.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p4.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p5.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p6.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p7.jpg" alt="loading" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p8.jpg" alt="" class="hover-img">
-                                                        <span class="new">new</span>
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p9.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p10.jpg" alt="" class="hover-img">
-
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p11.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p12.jpg" alt="" class="hover-img">
-                                                        <span class="price-dec">30% off</span>
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p13.jpg" alt="" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p14.jpg" alt="" class="hover-img">
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-3">
-                                            <div class="single-product">
-                                                <div class="product-img hover">
-                                                    <a href="">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p15.jpg" alt="loading" class="default-img">
-                                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/products/p16.jpg" alt="" class="hover-img">
-                                                        <span class="out-of-stock">Hot</span>
-
-                                                    </a>
-                                                    <div class="button-ahead">
-                                                        <div class="product-action-1">
-                                                            <a href="" class="addtocart-btn">
-                                                                Add to cart
-                                                            </a>
-                                                        </div>
-                                                        <div class="product-action-2">
-                                                            <a href="">
-                                                                <ion-icon name="eye-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Quick Shop
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="heart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Wishlist
-                                                                </span>
-                                                            </a>
-                                                            <a href="">
-                                                                <ion-icon name="stats-chart-outline"></ion-icon>
-                                                                <span class="small-modal">
-                                                                    Add to Compare
-                                                                </span>
-                                                            </a>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-
-                                                <div class="product-content">
-                                                    <h3>
-                                                        <a href="">Awesome pink show</a>
-                                                    </h3>
-                                                    <div class="product-price">
-                                                        <span>$29.00</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!---trending end -->
 
-        <!---free banner start -->
+        <!--header inner end--->
 
-        <section class="free-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="banner-content">
-                            <span>
-                                Eshop Free Lite Version
-                            </span>
-                            <h2>
-                                Currently You Are Using Free <br> Lite Version Of Eshop.
-                            </h2>
-                            <p>Please, purchase full version of the template to get all pages, <br> features and commercial license.
 
-                            </p>
-                            <a href="" class="btn purchase-btn">Purchase now</a>
+    </header>
+
+    <!-------header section end--------->
+
+    <!---footer start--->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <a href="">
+                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo2.png" alt="">
+                            </a>
                         </div>
+                        <p class="text">
+                            Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                        </p>
+                        <p class="call">
+                            Got Question? Call us 24/7
+                            <br>
+                            <span><a href="">+0123 456 789</a></span>
+                        </p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!---free banner end -->
-
-        <!--shop-home-list-->
-
-        <div class="shop-home-list">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="shop-home-title">
-                                    <h2>
-                                        On sale
-                                    </h2>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list1.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$48</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list2.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$48</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list3.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$48</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="shop-home-title">
-                                    <h2>
-                                        Best Seller
-                                    </h2>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list4.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$58</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list5.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$68</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list6.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$85</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
+                <div class="col-lg-2">
+                    <div class="single-footer">
+                        <h4>Infomation</h4>
+                        <ul class="footer-list">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Faq</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Help</a></li>
+                        </ul>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="shop-home-title">
-                                    <h2>
-                                        Top Viewed
-                                    </h2>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list7.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$90</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list8.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$35</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-
-                        <!--single list start-->
-                        <div class="single-list">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="list-item-img overlay">
-                                        <img src="https://wpthemesgrid.com/themes/free/eshop/images/list/shop-list9.jpg" alt="">
-                                        <a href="" class="buy">
-                                            <i class="fa fa-shopping-bag"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 no-padding-right">
-                                    <div class="list-item-content">
-                                        <h4 class="item-title">
-                                            <a href="">Licity jelly leg flat Sandals</a>
-                                        </h4>
-                                        <span class="item-price">$56</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--single list end-->
-                    </div>
                 </div>
-            </div>
-        </div>
-
-        <!---shop home list end--->
-
-        <!---shop blog start--->
-
-        <section class="shop-blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <h2>From Our Blog</h2>
-                        </div>
+                <div class="col-lg-2">
+                    <div class="single-footer">
+                        <h4>Customer Service</h4>
+                        <ul class="footer-list">
+                            <li><a href="">Payment Methods</a></li>
+                            <li><a href="">Money-back</a></li>
+                            <li><a href="">Returns</a></li>
+                            <li><a href="">Shipping</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
                     </div>
+
                 </div>
+                <div class="col-lg-3">
+                    <div class="single-footer">
+                        <h4>Get In Tuch</h4>
+                        <ul class="footer-list contact">
+                            <li><a href="">NO. 342 - London Oxford Street.</a></li>
+                            <li><a href="">012 United Kingdom.</a></li>
+                            <li><a href="">info@eshop.com</a></li>
+                            <li><a href="">+032 3456 7890</a></li>
 
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-blog">
-                            <div class="single-blog-img">
-                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog1.jpg" alt="">
-                            </div>
-                            <div class="single-blog-content">
-                                <p class="date">22 July , 2020. Monday</p>
-
-
-                                <a href="" class="title">Sed adipiscing ornare.</a>
-                                <a href="" class="continue-btn">continue reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-blog">
-                            <div class="single-blog-img">
-                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog2.jpg" alt="">
-                            </div>
-                            <div class="single-blog-content">
-                                <p class="date">22 July , 2020. Monday</p>
-
-
-                                <a href="" class="title">Man’s Fashion Winter Sale</a>
-                                <a href="" class="continue-btn">continue reading</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-blog">
-                            <div class="single-blog-img">
-                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/blog3.jpg" alt="">
-                            </div>
-                            <div class="single-blog-content">
-                                <p class="date">22 July , 2020. Monday</p>
-
-
-                                <a href="" class="title">Women Fashion Festive</a>
-                                <a href="" class="continue-btn">continue reading</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---shop blog start--->
-
-        <!---shop services start--->
-        <section class="shop-services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <ion-icon name="rocket-outline"></ion-icon>
-                            <div class="content">
-                                <h4>FREE SHIPING</h4>
-                                <p>Orders over $100</p>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <ion-icon name="reload-outline"></ion-icon>
-                            <div class="content">
-                                <h4>FREE RETURN</h4>
-                                <p>Within 30 days returns</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <ion-icon name="lock-closed-outline"></ion-icon>
-                            <div class="content">
-                                <h4>SUCURE PAYMENT</h4>
-                                <p>100% secure payment</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-service">
-                            <ion-icon name="bookmark-outline"></ion-icon>
-                            <div class="content">
-                                <h4>BEST PEICE</h4>
-                                <p>Guaranteed price</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!---shop services end--->
-        <!---shop newsletter start--->
-
-        <section class="shop-newsletter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="shop-newsletter-box">
-                            <h4>newsletter</h4>
-                            <p>Subscribe to our newsletter and get <span>10%</span> off your first purchase</p>
-                            <form action="" class="newsletter-form">
-                                <input type="email" name="" id="" placeholder="Your email address">
-                                <button class="subscribe-btn">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!---shop newsletter end--->
-        <!---footer start--->
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="footer-about">
-                            <div class="footer-logo">
+                        </ul>
+                        <ul class="footer-social-list">
+                            <li>
                                 <a href="">
-                                    <img src="https://wpthemesgrid.com/themes/free/eshop/images/logo2.png" alt="">
+                                    <ion-icon name="logo-facebook"></ion-icon>
                                 </a>
-                            </div>
-                            <p class="text">
-                                Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-                            </p>
-                            <p class="call">
-                                Got Question? Call us 24/7
-                                <br>
-                                <span><a href="">+0123 456 789</a></span>
-                            </p>
-                        </div>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <ion-icon name="logo-flickr"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="single-footer">
-                            <h4>Infomation</h4>
-                            <ul class="footer-list">
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Faq</a></li>
-                                <li><a href="">Terms & Conditions</a></li>
-                                <li><a href="">Contact Us</a></li>
-                                <li><a href="">Help</a></li>
-                            </ul>
-                        </div>
 
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="single-footer">
-                            <h4>Customer Service</h4>
-                            <ul class="footer-list">
-                                <li><a href="">Payment Methods</a></li>
-                                <li><a href="">Money-back</a></li>
-                                <li><a href="">Returns</a></li>
-                                <li><a href="">Shipping</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="single-footer">
-                            <h4>Get In Tuch</h4>
-                            <ul class="footer-list contact">
-                                <li><a href="">NO. 342 - London Oxford Street.</a></li>
-                                <li><a href="">012 United Kingdom.</a></li>
-                                <li><a href="">info@eshop.com</a></li>
-                                <li><a href="">+032 3456 7890</a></li>
-
-                            </ul>
-                            <ul class="footer-social-list">
-                                <li>
-                                    <a href="">
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <ion-icon name="logo-flickr"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>
                 </div>
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="copyright-text">
-                                <p>
-                                    Copyright © 2020
-                                    <a href="https://wpthemesgrid.com/">Wpthemesgrid</a> - All Rights Reserved.
-                                </p>
-                            </div>
+            </div>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright-text">
+                            <p>
+                                Copyright © 2020
+                                <a href="https://wpthemesgrid.com/">Wpthemesgrid</a> - All Rights Reserved.
+                            </p>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="copyright-image">
-                                <img src="https://wpthemesgrid.com/themes/free/eshop/images/payments.png" alt="">
-                            </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="copyright-image">
+                            <img src="https://wpthemesgrid.com/themes/free/eshop/images/payments.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!---footer end--->
+        </div>
+    </footer>
+    <!---footer end--->
 
-    </div>
     <!--scroll up -->
     <a href="#" id="scrollUp">
         <ion-icon name="chevron-up-outline"></ion-icon>

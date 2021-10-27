@@ -16,6 +16,21 @@ html {
     scroll-behavior: smooth;
 }
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
 a,
 input {
     font-weight: 400;
@@ -26,10 +41,10 @@ ul {
 }
 
 .container {
-    max-width: 1170px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .container-fluid {
