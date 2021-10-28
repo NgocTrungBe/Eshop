@@ -16,6 +16,84 @@
         float: none;
         margin-top: 8px;
     }
+    .search-bar-top .search-bar {
+        width: 445px;
+        height: 45px;
+    }
+    .nice-select {
+        font-size: 13px;
+    }
+    .search-bar-top .search-bar form .btn-search {
+        height: 44px;
+    }
+    .search-bar-top .search-bar form input {
+        width: 216px;
+        height: auto;
+        font-size: 13px;
+    }
+    .right-bar .single-bar>a {
+        font-size: 20px;
+    }
+    .menu-area .main-menu>li>a {
+        font-size: 14px;
+        padding: 15px 15px;
+    }
+    .header-inner.sticky {
+        background: #fff;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        transition: 0.5s;
+        animation: FadeInDown 1s both 0.2s;
+    }
+    .all-category {
+        display: none;
+    }
+    .hero-slider {
+        height: 416px;
+        overflow: hidden;
+    }
+    .hero-slider .single-slider .text-inner__area {
+        margin-top: 80px;
+    }
+    .text-inner__area h1 span {
+        font-size: 17px;
+    }
+    .text-inner__area h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 5px;
+    }
+    .text-inner__area .button .shopnow-btn {
+        padding: 12px 30px;
+    }
+    .small-banner .single-banner {
+        margin-bottom: 18px;
+    }
+    .small-banner .single-banner.tab-height {
+        height: 300px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .free-banner {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 50px 0px;
+        background: var(--yellow);
+    }
+    .free-banner .banner-content h2 {
+        font-size: 26px;
+    }
+    .free-banner .banner-content span {
+        font-size: 14px;
+    }
+    .free-banner .banner-content p {
+        font-size: 13px;
+    }
 }
 
 
@@ -53,5 +131,64 @@
     .mobile-search-top {
         visibility: visible;
         opacity: 1;
+        display: block;
+    }
+    .mobile-nav {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+    }
+    .middle-inner.sticky {
+        background: #fff;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        transition: 0.5s;
+        animation: FadeInDown 1s both 0.2s;
+    }
+    .hero-slider {
+        height: 350px;
+        overflow: hidden;
+    }
+    .hero-slider .single-slider .text-inner__area {
+        margin-top: 30px;
+    }
+    .text-inner__area h1 span {
+        font-size: 15px;
+    }
+    .text-inner__area h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 0px;
+    }
+    .text-inner__area .button .shopnow-btn {
+        padding: 10px 25px;
+    }
+    .small-banner {
+        padding: 20px 0px;
+    }
+    .small-banner .single-banner {
+        margin-bottom: 13px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .free-banner {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 40px 0px;
+        background: var(--yellow);
+    }
+    .free-banner .banner-content h2 {
+        font-size: 20px;
+    }
+    .free-banner .banner-content span {
+        font-size: 14px;
+    }
+    .free-banner .banner-content p {
+        font-size: 13px;
     }
 }

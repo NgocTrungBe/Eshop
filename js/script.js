@@ -29,10 +29,12 @@ const scroll_up = $.querySelector("#scrollUp");
 // // header inner sticky and scroll up handle
 
 window.addEventListener("scroll", function() {
+
     const header = $.querySelector(".header-inner");
-
+    const middle_inner = $.querySelector(".middle-inner");
     header.classList.toggle("sticky", window.scrollY > 100);
-
+    console.log(header)
+    middle_inner.classList.toggle("sticky", window.scrollY > 50);
     if (window.scrollY > 100) {
         scroll_up.style.visibility = "visible";
         scroll_up.style.opacity = 1;
@@ -117,25 +119,13 @@ const slicknav = $.querySelector(".slicknav-nav");
 const mobile_nav_icon = $.querySelector(".slicknav-icon");
 const slicknav_parent = $.querySelector(".slicknav-parent");
 
-mobile_nav_icon.addEventListener("click", function() {
-    mobile_nav.classList.toggle("open");
-    if (slicknav.classList.contains("FadeIn")) {
-        slicknav.classList.remove("FadeIn");
-        slicknav.classList.add("FadeOut");
-    } else {
-        slicknav.classList.add("FadeIn");
-        slicknav.classList.remove("FadeOut");
-    }
+jQuery(document).ready(function($) {
+    $('.slicknav-icon').click(function() {
+        $('.slicknav-nav').toggleClass('slicknav-open', 300);
+    });
 
-})
-slicknav_parent.addEventListener("click", function() {
+    $('.slicknav-parent').click(function() {
+        $('.slicknav-parent').toggleClass('slicknav-open', 300);
+    });
 
-    if (slicknav_parent.classList.contains("slicknav-colapsed")) {
-        slicknav_parent.classList.remove("slicknav-colapsed");
-        slicknav_parent.classList.add("slicknav-open");
-    } else {
-        slicknav_parent.classList.add("slicknav-colapsed");
-        slicknav_parent.classList.remove("slicknav-open");
-    }
-
-})
+});

@@ -16,64 +16,46 @@ Descol-md-ription: Eshop - eCommercol-md-e HTML5 Template.
 }
 
 .col-sm-2 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 16.66667%;
     width: 16.66667%;
 }
 
 .col-sm-3 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 25%;
     width: 25%;
 }
 
 .col-sm-4 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 33.33334%;
     width: 33.33334%;
 }
 
 .col-sm-5 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 41.66667%;
     width: 41.66667%;
 }
 
 .col-sm-6 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 50%;
     width: 50%;
 }
 
 .col-sm-7 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 58.33334%;
     width: 58.33334%;
 }
 
 .col-sm-8 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 66.66667%;
     width: 66.66667%;
 }
 
 .col-sm-9 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 75%;
     width: 75%;
 }
 
 .col-sm-12 {
-    padding-left: 15px;
-    padding-right: 15px;
     flex: 0 0 100%;
     width: 100%;
 }
@@ -159,6 +141,10 @@ Descol-md-ription: Eshop - eCommercol-md-e HTML5 Template.
 .col-sm-11,
 .col-sm-12 {
     position: relative;
+    height: 100%;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -181,62 +167,42 @@ Descol-md-ription: Eshop - eCommercol-md-e HTML5 Template.
         display: block;
     }
     .col-md-1 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
     }
     .col-md-2 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 16.66667%;
         width: 16.66667%;
     }
     .col-md-3 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 25%;
         width: 25%;
     }
     .col-md-4 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 33.33334%;
         width: 33.33334%;
     }
     .col-md-5 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 41.66667%;
         width: 41.66667%;
     }
     .col-md-6 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 50%;
         width: 50%;
     }
     .col-md-7 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 58.33334%;
         width: 58.33334%;
     }
     .col-md-8 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 66.66667%;
         width: 66.66667%;
     }
     .col-md-9 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 75%;
         width: 75%;
     }
     .col-md-12 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 100%;
         width: 100%;
     }
@@ -283,62 +249,42 @@ Descol-md-ription: Eshop - eCommercol-md-e HTML5 Template.
         max-width: 1170px;
     }
     .col-lg-1 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
     }
     .col-lg-2 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 16.66667%;
         width: 16.66667%;
     }
     .col-lg-3 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 25%;
         width: 25%;
     }
     .col-lg-4 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 33.33334%;
         width: 33.33334%;
     }
     .col-lg-5 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 41.66667%;
         width: 41.66667%;
     }
     .col-lg-6 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 50%;
         width: 50%;
     }
     .col-lg-7 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 58.33334%;
         width: 58.33334%;
     }
     .col-lg-8 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 66.66667%;
         width: 66.66667%;
     }
     .col-lg-9 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 75%;
         width: 75%;
     }
     .col-lg-12 {
-        padding-left: 15px;
-        padding-right: 15px;
         flex: 0 0 100%;
         width: 100%;
     }
