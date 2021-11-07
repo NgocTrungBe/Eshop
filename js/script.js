@@ -33,7 +33,6 @@ window.addEventListener("scroll", function() {
     const header = $.querySelector(".header-inner");
     const middle_inner = $.querySelector(".middle-inner");
     header.classList.toggle("sticky", window.scrollY > 100);
-    console.log(header)
     middle_inner.classList.toggle("sticky", window.scrollY > 50);
     if (window.scrollY > 100) {
         scroll_up.style.visibility = "visible";
