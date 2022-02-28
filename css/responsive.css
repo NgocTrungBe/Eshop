@@ -5,7 +5,7 @@
 
 /*-tablet-*/
 
-@media (min-width:768px) and (max-width:1023px) {
+@media only screen and (max-width:1024px) {
     .container {
         max-width: 760px;
     }
@@ -102,12 +102,22 @@
         text-align: center;
         margin-bottom: 40px;
     }
+    .shop-newsletter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .shop-services {
         padding-top: 50px;
         padding-bottom: 10px;
     }
     .shop-services .single-service {
         margin-bottom: 20px;
+    }
+    .connect-page-link {
+        padding: 20px 0;
+    }
+    .footer {
+        padding: 50px 0;
     }
     .footer .footer-about {
         padding-right: 0px;
@@ -119,12 +129,20 @@
     .footer .copyright {
         margin-top: 50px;
     }
+    .shop-checkout-area .checkout-form .form-group {
+        margin-bottom: 20px;
+    }
+    .shop-checkout-area .oder-details {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 
 /*-tablet-*/
 
-@media screen and (max-width:479px) {
+@media only screen and (max-width:600px) {
     .topbar .topbar__listmain li {
         display: block;
         border: none;
@@ -236,9 +254,17 @@
         text-align: center;
         margin-bottom: 40px;
     }
+    .shop-checkout-area .checkout-form .form-group {
+        margin-bottom: 10px;
+    }
+    .shop-checkout-area .oder-details {
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
     .shop-services .single-service {
         margin-left: 50px;
         margin-bottom: 20px;
+        justify-content: flex-start;
     }
     .shop-newsletter-box .newsletter-form {
         display: inline-block;

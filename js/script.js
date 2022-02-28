@@ -115,8 +115,8 @@ mobile_search_icon.addEventListener("click", function() {
 
 const mobile_nav = $.querySelector(".mobile-nav");
 const slicknav = $.querySelector(".slicknav-nav");
-const mobile_nav_icon = $.querySelector(".slicknav-icon");
-const slicknav_parent = $.querySelector(".slicknav-parent");
+const mobile_nav_icon = $.querySelectorAll(".slicknav-icon");
+const slicknav_parent = $.querySelectorAll(".slicknav-parent");
 
 jQuery(document).ready(function($) {
     $('.slicknav-icon').click(function() {
